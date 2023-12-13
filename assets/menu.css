@@ -1,0 +1,20 @@
+.menu-position{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.menu-position .link{
+    margin-left: 5px;
+    padding: 0px 15px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: .25s;
+}
+
+.menu-position .link:hover{
+    color: #1ee21e;
+}
